@@ -5,6 +5,7 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 h1{
     color: aliceblue;
@@ -122,4 +123,15 @@ footer{
     margin-top: 5%;
     color: azure;
     font-weight: bolder;
+}
+.audio{
+    position: fixed;
+    top: 10%;
+    right: 0%;
+    width: 2%;
+    transition: all .3s;
+}
+.audio:hover,
+.audio:active{
+    width: 10%;
 }
